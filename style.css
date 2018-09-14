@@ -3,3 +3,24 @@ html, body, div {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+}
+
+.bio {
+    grid-column: 2 / span 2;
+    background-color: red;
+}
+
+.social-links {
+    grid-column: 2 / span 2;
+    background-color: blue;
+}
+
+.movies {
+    grid-column: 2 / span 2;
+    background-color: green;
+}

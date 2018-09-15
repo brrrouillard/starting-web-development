@@ -11,6 +11,7 @@ html, body, div {
 BOXES
 **/ 
 
+
 .container {
     display: grid;
     grid-template-columns: repeat(8, 1fr);

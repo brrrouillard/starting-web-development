@@ -90,5 +90,13 @@ h1 {
 }
 
 ul {
-    
+    list-style-type: none;
+    color: #cccccc;
+    font-size: 100%;
+
+}
+
+li {
+    display: inline;
+    padding: 50px;
 }

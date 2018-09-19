@@ -5,7 +5,7 @@
 Any web browser.
 
 ### Installing and Running
-Launch index.html.
+Launch [index.html](https://brrrouillard.github.io/starting-web-development/).
 
 ## Purpose
 I built this webpage during my internship at BeCode. The goal was to remake an existing webpage only given a layout image.

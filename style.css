@@ -1,7 +1,6 @@
 html, body, div {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
     background-color: #ebebeb;
     color: #7d7d7d;
 }
@@ -14,41 +13,52 @@ BOXES
 
 .container {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: 30% 40% 30%;
     row-gap: 20px;
+    font-size: 90%;
+    line-height: 2.0;
 }
 
 .bio {
-    grid-column: 3 / span 4;
+    grid-column: 2 / span 1;
     display: grid;
     align-items: center;
     justify-content: center;
     padding: 20px;
     margin-top: 50px;
     background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0px 30px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    
+    border-radius: 5px;  
 }
 
 .social-links {
-    grid-column: 3 / span 4;
+    grid-column: 2 / span 1;
     background-color: white;
     align-items: center;
-    justify-content: center;
+    float: right;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .movies {
     display: grid;
-    grid-column: 3 / span 4;
+    grid-column: 2 / span 1;
     background-color: white;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    font-size: 90%;
+    margin-bottom: 3em;
+}
+
+.movies p {
+    padding: 2em;
+    text-align: justify;
+}
+
+.movies h2 {
+    text-align: center;
 }
 
 /**
@@ -72,13 +82,21 @@ BOXES
     border-radius: 5%;
     padding: 10px;
     background-color: #dd5555;
+    font-size: 90%;
 }
 a.wiki-link:visited, a.wiki-link {
     color: white;
     text-decoration: none;
+
 }
 a.wiki-link:hover {
     text-decoration: underline;
+    opacity: 0.9;
+}
+
+.movie-img {
+    padding: 30px;
+    width: 20%;
 }
 
 .no-weight {
@@ -87,7 +105,7 @@ a.wiki-link:hover {
 
 h1 {
     color: #dd5555;
-    padding: 10px;
+    padding: 5px;
 }
 
 ul {
@@ -98,6 +116,6 @@ ul {
 }
 
 li {
-    display: inline;
-    padding: 50px;
+    display: inline-flex;
+    padding: 30px;
 }

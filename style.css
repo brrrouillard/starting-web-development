@@ -31,13 +31,20 @@ BOXES
 }
 
 .social-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     grid-column: 2 / span 1;
     background-color: white;
     align-items: center;
-    float: right;
-    padding: 20px;
+    padding: 30px;
     border-radius: 5px;
-    
+    text-align: center;
+    color: lightgray;
+}
+
+i {
+    font-size: 200%;
+
 }
 
 .movies {
@@ -112,7 +119,6 @@ ul {
     list-style-type: none;
     color: #cccccc;
     font-size: 100%;
-
 }
 
 li {
